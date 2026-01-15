@@ -1,5 +1,5 @@
+baseURL = "https://solnicles.com/"
 
-baseURL = "https://dilliemen.github.io/solnicles.github.io/"
 languageCode = "zh-cn"
 title = "solnicles"
 theme = "PaperMod"
@@ -24,15 +24,17 @@ customCSS = ["css/extended/custom.css"]
 
 [[params.profileMode.buttons]]
   name = "Structure"
-  url = "/solnicles.github.io/structure/"
+  url = "/structure/"
 
 [[params.profileMode.buttons]]
   name = "Self"
-  url = "/solnicles.github.io/self/"
+ url = "/self/"
+
 
 [[params.profileMode.buttons]]
   name = "Story"
-  url = "/solnicles.github.io/story/"
+ url = "/story/"
+
 
 
 
