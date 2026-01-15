@@ -1,0 +1,40 @@
+
+baseURL = "https://solnicles.github.io/"
+languageCode = "zh-cn"
+title = "Sol"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+
+# 让文章更像博客
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+
+  # 主页显示模式：文章列表
+  mainSections = ["posts"]
+
+[menu]
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "分类"
+    url = "/categories/"
+    weight = 20
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight = 40
+
+# PaperMod 的归档页需要它的模板，Hugo 默认会处理
+# 分类/标签也会自动生成列表页
+
