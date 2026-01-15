@@ -1,0 +1,54 @@
++++
+date = '2026-01-12'
+draft = false
+title = 'META: Mediated Existence Through Algorithms'
++++
+
+
+On the last day of 2025, I removed half of the accounts I was following on Instagram. About one month before that, on November 18, 2025, the judgment for FTC v. Meta was released. The District Court for the District of Columbia held that Meta is not a monopoly in the market categorized as “Personal Social Networking (PSN).” This ruling reflects a reality where the definition of such a market is becoming obsolete. The court observed a shift from feeds filled with friends’ posts to algorithm-recommended content, which users then share via private messages.
+
+On Facebook, Instagram, TikTok, and YouTube, users spend most of their time watching videos recommended by algorithms. If a user finds content they like, all four apps allow them to send it to friends with a single tap. When apps inside and outside the alleged PSN market deliberately offer the same features and compete for the same people to post the same videos, it provides strong evidence that they are competing for the same users who are after the same things.
+
+Meta, formerly known as Facebook, acquired Instagram in 2012 and WhatsApp in 2014. In 2018, TikTok launched in the United States, allowing users to watch and upload short videos, as well as like, comment, and repost content. Users can also follow accounts, exchange messages, and share videos with others. To defend its business against this new competitor, Meta introduced “Reels” to Instagram in 2020 and added Facebook Reels in 2021.
+
+The word “reel” dates back to the era of physical film, referring to the circular spools that held movie strips. Since Meta introduced the feature to Instagram in 2020, the term has become a synonym for short-form video. These videos are created and posted by people whom a user may not know. Instead of coming from friends, they are recommended by an AI algorithm based on the user’s interests.
+
+We should not forget YouTube when talking about short videos. Even though much of its content is longer than what is found on TikTok or Instagram, it joined the race with a naming strategy that is refreshingly blunt. While Meta has “Reels” and TikTok has its namesake videos, YouTube simply calls its version “Shorts.” It is a direct description of a direct function.
+
+The similarity in features and user behavior represents a convergence that might be shocking to someone who holds on to artificial categories for these platforms. The reasons behind it are rooted in the development of technology. First, smartphone usage exploded. Smartphones help people easily share with a selected circle of friends and family, which in turn makes posting to a public social-media feed feel as broad as placing a wedding announcement in a newspaper—a level of publicity that many no longer feel is necessary for every moment.
+
+Second, mobile data improved. As networks became faster and data became cheaper, users no longer had to struggle with constant freezing and buffering, allowing them to shift more and more toward video. The third reason is a massive leap in AI. Advanced algorithms can analyze preferences to find what people care about most. This recommended content is more likely to interest someone than a post from a friend they accidentally added at a high school party.
+
+Fourth, a shift in social norms has discouraged public posting. This can be understood through game theory, where a social norm is a self-enforcing rule of behavior. A norm exists when every player follows a specific pattern because they expect everyone else to do the same, knowing that breaking the rule would trigger a collective response that makes them worse off.
+
+On social media, the risk of being judged or having one’s privacy exposed has become a prohibitive cost. Because digital footprints are permanent, users realize that any public post can be used against them later. To avoid being scrutinized, individuals choose to stay invisible. This “active silence” has become a stable equilibrium maintained through mutual expectations. As more people shift toward “cyberstalking” to observe others while keeping themselves hidden, the total amount of public content naturally drops. The result is a new social norm where the safest move is to remain a spectator.
+
+The shifting norm has not only changed what people post, but it has also limited what is available for them to see. As users increasingly retreat from public posting, Meta faces a content vacuum. With fewer friend-generated posts available, the platform must rely on algorithmically curated, unconnected content to fill the void.
+
+In just the last two years, the share of time Americans spent viewing friends’ content on Facebook fell by almost a quarter, while the share of time spent watching Reels more than doubled. During the same period on Instagram, the share of time spent on friends’ content fell by more than a third, while the share of time spent watching Reels more than tripled.
+
+The court views this transition as a simple matter of supply and demand. According to the court, Meta’s goal is to keep users on its apps as long as possible by tuning algorithms to show the content people most want to see. It argues that Meta has no reason to deliberately suppress content that brings users in or promote content that pushes them out.
+
+Something is unsettling about this logic. It suggests a world where we have become more interested in strangers and algorithmically selected content than in the lives of our own friends and family—or even our own.
+
+The phenomenon of algorithmically selected content replacing updates from friends and family brings me back to why I unfollowed half of my social circle. Algorithmically selected content has replaced real social ties. When the feed is no longer about personal connections, the reason for following someone disappears. Sometimes, a well-crafted advertisement is even more engaging than an over-edited photo from a distant acquaintance.
+
+The reason these advertisements have become more engaging is that the way they are sold has changed. Companies now design ads to be unobtrusive and relevant. In fact, the more engaging an ad is to a specific user, the less Meta charges the advertiser to show it. Because a user is more likely to click on a tailored ad, Meta is more likely to prioritize it. These ads become so well-tailored that they often provide more value than the unconnected content we see from strangers. Yet, research shows people still complain about seeing too many ads, especially those who remember the “clean” versions of these apps from years ago.
+
+These complaints raise a deeper question: Does an increase in ads represent a decrease in quality? In a traditional Section 2 monopolization case under the Sherman Act, the product market is defined as the set of all alternatives that are reasonably interchangeable for the same purpose. This definition relies on the SSNIP test, which asks whether a monopolist could profitably impose a 5% price increase. However, because platforms like Instagram and TikTok are free, users do not pay a monetary price. This necessitates a shift to a quality-adjusted price test.
+
+This test asks whether a hypothetical monopolist could profitably impose a small but significant and non-transitory decrease in the quality of its apps. Essentially, it evaluates whether a company would deliberately make its products worse than they would be in a competitive market. Whether a monopolist can profitably do so depends on the available alternatives and how readily consumers would switch.
+
+The concept of quality-adjusted prices is difficult to apply to these online platforms because quality is largely non-quantifiable. Even while acknowledging that many users complain about the overwhelming volume of ads, the court argues that Meta’s ads have improved because conversion rates, which reflect the frequency with which users buy products or subscribe to services, have steadily risen. This suggests that ads are now better at connecting users to products they actually want.
+
+However, using conversion rates to measure quality is problematic in an environment tailored by AI. Because algorithms have become so efficient at analyzing preferences, the relevance of an ad does not necessarily mean the platform is getting better for the user. It becomes hard to tell whether the experience is improving or if the machine is simply getting better at capturing our attention. An “effective” ad proves that the technology is advancing, but it doesn’t prove that the quality of the app isn’t sliding.
+
+Furthermore, focusing so heavily on making advertisements more engaging and relevant raises a question of resource allocation. When a company’s primary innovation is centered on maximizing ad efficiency, it inevitably diverts engineering effort and algorithmic intelligence away from enhancing the actual user experience. In a competitive market, these resources might have been used to foster deeper human connections or better privacy tools. Instead, they are spent on perfecting the machinery of monetization, leaving the core purpose of the platform to stagnate.
+
+Another relevant question is not whether a decrease in quality would cause people to stop checking these platforms altogether, but whether it would cause them to use them less. Because these apps are free, users are unlikely to abandon one entirely in favor of another. Instead, these companies compete over our finite attention: when we have a free moment, which app do we open, and how long do we stay before switching to another?
+
+As cited by Judge Boasberg at the beginning of the judgment, the only constant in the world is change. The technological paradox offers more capabilities and more broadly distributed content, creating a seemingly enriched world. These advancements provide us with cheaper or even free means of connection. Consequently, social-media apps—or short-video apps, as these artificial boundaries fade—are no longer grasping our consumer surplus, but our marginal time.
+
+The company knows our demographics, how long we have been on Facebook or Instagram, and how many friends we have. They track how often we click on ads and how that affects our usage. The court reinforces this focus on attention by stating that the best single measure of market share is total time spent. Time spent reflects how we ourselves experience our choices: when we are bored in line, sitting on our couch, or early to a date, the real choice we face is which app we will pop open and how long we will use it before switching to another.
+
+Maybe the question isn’t whether Meta is a mammoth, but how it channels our attention and where it’s taking us.

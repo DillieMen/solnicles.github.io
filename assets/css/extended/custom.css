@@ -1,0 +1,44 @@
+/* New Yorker–style serif typography */
+
+:root {
+  --font-serif: "New York", "Georgia", "Times New Roman", serif;
+  --font-sans: "New York", "Georgia", serif;
+}
+
+body {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.entry-title {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* Home intro text */
+.home-info,
+.home-info p {
+  font-family: var(--font-serif);
+  font-size: 19px;
+  line-height: 1.8;
+}
+
+/* Lists (your three sections) */
+.home-info ul,
+.home-info li {
+  font-family: var(--font-serif);
+  font-size: 18px;
+}
+
+/* Post content */
+.post-content {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.8;
+}
+

@@ -1,7 +1,7 @@
 
-baseURL = "https://solnicles.github.io/"
+baseURL = "https://dilliemen.github.io/solnicles.github.io/"
 languageCode = "zh-cn"
-title = "Sol"
+title = "solnicles"
 theme = "PaperMod"
 [pagination]
   pagerSize = 10
@@ -16,24 +16,33 @@ theme = "PaperMod"
 
   # 主页显示模式：文章列表
   mainSections = ["posts"]
+customCSS = ["css/extended/custom.css"]
+[params.profileMode]
+  enabled = true
+  title = "solnicles"
+  subtitle = "A growing archive of observations and thoughts.\nWriting here appears in both English and Chinese / 本站内容以中英文呈现"
+
+[[params.profileMode.buttons]]
+  name = "Structure"
+  url = "/solnicles.github.io/structure/"
+
+[[params.profileMode.buttons]]
+  name = "Self"
+  url = "/solnicles.github.io/self/"
+
+[[params.profileMode.buttons]]
+  name = "Story"
+  url = "/solnicles.github.io/story/"
+
+
+
+
+
+
+
 
 [menu]
-  [[menu.main]]
-    name = "文章"
-    url = "/posts/"
-    weight = 10
-  [[menu.main]]
-    name = "分类"
-    url = "/categories/"
-    weight = 20
-  [[menu.main]]
-    name = "标签"
-    url = "/tags/"
-    weight = 30
-  [[menu.main]]
-    name = "归档"
-    url = "/archives/"
-    weight = 40
+
 
 # PaperMod 的归档页需要它的模板，Hugo 默认会处理
 # 分类/标签也会自动生成列表页
