@@ -17,10 +17,12 @@ theme = "PaperMod"
   # 主页显示模式：文章列表
   mainSections = ["posts"]
 customCSS = ["css/extended/custom.css"]
+
 [params.profileMode]
   enabled = true
   title = "solnicles"
-  subtitle = "A growing archive of observations and thoughts.\nWriting here appears in both English and Chinese / 本站内容以中英文呈现"
+  subtitle = "A growing archive of observations and thoughts.<br>Writing here appears in both English and Chinese / 本站内容以中英文呈现"
+
 
 [[params.profileMode.buttons]]
   name = "Structure"
@@ -34,6 +36,18 @@ customCSS = ["css/extended/custom.css"]
 [[params.profileMode.buttons]]
   name = "Story"
  url = "/story/"
+
+[[params.profileMode.buttons]]
+  name = "Podcast: Solemn Romantic"
+  url = "/podcast/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+
 
 
 

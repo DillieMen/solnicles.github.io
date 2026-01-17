@@ -1,0 +1,37 @@
+/* ---- 首页导航：极简文字式 ---- */
+.profile .buttons,
+.profile-mode .buttons {
+  display: flex !important;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 22px;
+  flex-wrap: wrap;
+}
+
+.profile .buttons a,
+.profile-mode .buttons a {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  opacity: 0.82;
+  transition: all .18s ease;
+}
+
+.profile .buttons a:not(:last-child)::after,
+.profile-mode .buttons a:not(:last-child)::after {
+  content: "·";
+  margin-left: 18px;
+  opacity: .4;
+}
+
+.profile .buttons a:hover,
+.profile-mode .buttons a:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+body { outline: 3px solid red; }
