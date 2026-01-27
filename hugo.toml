@@ -11,7 +11,7 @@ theme = "PaperMod"
 
 [params]
   defaultTheme = "auto"
-  ShowReadingTime = true
+  ShowReadingTime = false
   ShowCodeCopyButtons = true
 
   # 主页显示模式：文章列表
