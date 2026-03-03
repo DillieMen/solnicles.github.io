@@ -1,4 +1,6 @@
 baseURL = "https://solnicles.com/"
+author = "Dillie"
+
 
 languageCode = "zh-cn"
 title = "solnicles"
@@ -10,6 +12,7 @@ theme = "PaperMod"
 # 让文章更像博客
 
 [params]
+  author = "Dillie"
   defaultTheme = "auto"
   ShowReadingTime = false
   ShowCodeCopyButtons = true
