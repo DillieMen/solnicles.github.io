@@ -1,17 +1,13 @@
 baseURL = "https://solnicles.com/"
-
-[author]
-name = "Dillie"
-
-
 languageCode = "zh-cn"
 title = "solnicles"
 theme = "PaperMod"
 
-
 [pagination]
   pagerSize = 10
 
+[author]
+  name = "Dillie"
 
 # 让文章更像博客
 
@@ -24,7 +20,8 @@ theme = "PaperMod"
   # 主页显示模式：文章列表
   mainSections = ["posts"]
 
-customCSS = ["css/extended/custom.css"]
+  customCSS = ["css/extended/custom.css"]
+
 
 [params.profileMode]
   enabled = true
