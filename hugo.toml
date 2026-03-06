@@ -1,4 +1,6 @@
 baseURL = "https://solnicles.com/"
+author = "Dillie"
+
 languageCode = "zh-cn"
 title = "solnicles"
 theme = "PaperMod"
@@ -6,13 +8,9 @@ theme = "PaperMod"
 [pagination]
   pagerSize = 10
 
-# 给 RSS 用，不显示
-[params.author]
-  name = "Dillie"
-
 # 让文章更像博客
 [params]
-  ShowAuthor = false
+  author = "Dillie"
   defaultTheme = "auto"
   ShowReadingTime = false
   ShowCodeCopyButtons = true
