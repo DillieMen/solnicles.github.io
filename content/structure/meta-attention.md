@@ -1,8 +1,7 @@
 +++
 date = '2026-01-12'
 draft = false
-title = 'META: Mediated Existence Through Algorithms'
-description = 'Mediated Attention'
+title = 'META: Mediated Existence Through Algorithms — Mediated Attention'
 +++
 
 
