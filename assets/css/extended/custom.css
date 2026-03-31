@@ -42,7 +42,12 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.8;
 }
 
-/* ---- Home nav: magazine-style index (3 in a row + Podcast on its own line) ---- */
+/* ---- Home nav: magazine-style index
+   Row 1: Structure / Self / Story
+   Row 2: Past
+   Row 3: Podcast
+---- */
+
 .profile .buttons,
 .profile-mode .buttons {
   display: grid !important;
@@ -50,11 +55,11 @@ h1, h2, h3, h4, h5, h6,
   justify-content: center;
   align-items: center;
   column-gap: 34px;
-  row-gap: 18px;
+  row-gap: 14px;
   margin-top: 26px;
 }
 
-/* Base link style: remove button look */
+/* Base link style */
 .profile .buttons a,
 .profile-mode .buttons a {
   background: none !important;
@@ -62,37 +67,33 @@ h1, h2, h3, h4, h5, h6,
   box-shadow: none !important;
   padding: 0 !important;
 
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+
   font-family: var(--font-serif);
   text-decoration: none;
   text-underline-offset: 4px;
-
-  transition: opacity .16s ease;
+  transition: opacity .16s ease, color .16s ease;
 }
 
-/* First row (1–3): slightly larger, chapter-like */
-.profile .buttons a:nth-child(-n+3),
-.profile-mode .buttons a:nth-child(-n+3) {
+/* First row: 1–3 */
+.profile .buttons a:nth-child(1),
+.profile .buttons a:nth-child(2),
+.profile .buttons a:nth-child(3),
+.profile-mode .buttons a:nth-child(1),
+.profile-mode .buttons a:nth-child(2),
+.profile-mode .buttons a:nth-child(3) {
   font-size: 20px;
   font-weight: 520;
   letter-spacing: 0.02em;
   opacity: 0.88;
 }
 
-/* Put Podcast (4th) on its own centered row */
-.profile .buttons a:nth-child(4),
-.profile-mode .buttons a:nth-child(4) {
-  grid-column: 1 / -1;
-  justify-self: center;
-
-  font-size: 18px;
-  font-weight: 460;
-  letter-spacing: 0.015em;
-  opacity: 0.82;
-
-  margin-top: 2px;
-}
-
-/* Dots between the first-row items only */
+/* Dots between first-row items */
 .profile .buttons a:nth-child(1)::after,
 .profile .buttons a:nth-child(2)::after,
 .profile-mode .buttons a:nth-child(1)::after,
@@ -105,7 +106,6 @@ h1, h2, h3, h4, h5, h6,
   opacity: 0.28;
 }
 
-/* Ensure ::after positions correctly */
 .profile .buttons a:nth-child(1),
 .profile .buttons a:nth-child(2),
 .profile-mode .buttons a:nth-child(1),
@@ -113,7 +113,37 @@ h1, h2, h3, h4, h5, h6,
   position: relative;
 }
 
-/* Hover: reading-style feedback */
+/* Second row: Past */
+.profile .buttons a:nth-child(4),
+.profile-mode .buttons a:nth-child(4) {
+  grid-column: 1 / -1;
+  justify-self: center;
+
+  font-size: 18px;
+  font-weight: 430;
+  letter-spacing: 0.01em;
+  opacity: 0.82;
+  color: rgba(0, 0, 0, 0.75);
+
+  margin-top: 4px;
+}
+
+/* Third row: Podcast */
+.profile .buttons a:nth-child(5),
+.profile-mode .buttons a:nth-child(5) {
+  grid-column: 1 / -1;
+  justify-self: center;
+
+  font-size: 17px;
+  font-weight: 420;
+  letter-spacing: 0.01em;
+  opacity: 0.82;
+  color: rgba(0, 0, 0, 0.75);
+
+  margin-top: -2px;
+}
+
+/* Hover */
 .profile .buttons a:hover,
 .profile-mode .buttons a:hover {
   opacity: 1;

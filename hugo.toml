@@ -33,16 +33,20 @@ theme = "PaperMod"
 
 [[params.profileMode.buttons]]
   name = "Self"
- url = "/self/"
-
+  url = "/self/"
 
 [[params.profileMode.buttons]]
   name = "Story"
- url = "/story/"
+  url = "/story/"
+
+[[params.profileMode.buttons]]
+  name = "过往写作 / Past"
+  url = "/past/"
 
 [[params.profileMode.buttons]]
   name = "Podcast: Solemn Romantic"
   url = "/podcast/"
+
 
 [markup]
   [markup.goldmark]
